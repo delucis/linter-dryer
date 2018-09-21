@@ -1,6 +1,6 @@
 {
   "name": "linter-dryer",
-  "description": "Highlight repetition in your code to help you keep DRY",
+  "description": "Highlight repetition in your code to help you stay DRY",
   "version": "0.0.0",
   "license": "GPL-3.0",
   "repository": {
@@ -17,7 +17,7 @@
     "DRY"
   ],
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.14.0 <2.0.0"
   },
   "providedServices": {
     "linter": {
