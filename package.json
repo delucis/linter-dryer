@@ -23,6 +23,17 @@
   "package-deps": [
     "linter"
   ],
+  "scripts": {
+    "prerelease": "npm t",
+    "release": "standard-version -s",
+    "postrelease": "npm publish && git push --follow-tags",
+    "test": "standard"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "standard": "^12.0.1",
+    "standard-version": "^4.4.0"
+  },
   "providedServices": {
     "linter": {
       "versions": {
@@ -34,6 +45,11 @@
     "globals": [
       "atom"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "bugs": {
     "url": "https://github.com/delucis/linter-dryer/issues"
