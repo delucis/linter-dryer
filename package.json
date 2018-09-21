@@ -1,0 +1,49 @@
+{
+  "name": "linter-dryer",
+  "main": "./lib/linter-dryer",
+  "version": "0.0.0",
+  "description": "Highlight repetition in your code to help you keep DRY",
+  "keywords": [
+    "lint",
+    "repetition",
+    "DRY"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delucis/linter-dryer.git"
+  },
+  "license": "GPL-3.0",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+     "atom-linter": "^3.4.0",
+     "atom-package-deps": "^3.0.5"
+  },
+  "package-deps": [
+    "linter"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "standard": {
+    "globals": [
+      "atom"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/delucis/linter-dryer/issues"
+  },
+  "homepage": "https://github.com/delucis/linter-dryer#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Swithinbank <swithinbank@gmail.com> (http://chrisswithinbank.net/)"
+}
