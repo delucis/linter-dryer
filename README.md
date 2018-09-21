@@ -2,7 +2,7 @@
 
 ![apm](https://img.shields.io/apm/v/linter-dryer.svg)
 
-> Highlight repetition in your code to help you stay <abbr title="Don’t Repeat Yourself">DRY</abbr>
+> Highlight repetition in [Atom](https://atom.io/) to help you stay <abbr title="Don’t Repeat Yourself">DRY</abbr>
 
 ## Installation
 

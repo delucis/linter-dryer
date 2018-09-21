@@ -1,6 +1,6 @@
 {
   "name": "linter-dryer",
-  "description": "Highlight repetition in your code to help you stay DRY",
+  "description": "Highlight repetition in Atom to help you stay DRY",
   "version": "0.0.0",
   "license": "GPL-3.0",
   "repository": {
