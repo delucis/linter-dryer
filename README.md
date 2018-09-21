@@ -4,6 +4,9 @@
 
 > Highlight repetition in [Atom](https://atom.io/) to help you stay <abbr title="Don’t Repeat Yourself">DRY</abbr>
 
+**⚠️ Work in Progress ⚠️**  
+This package works but is not yet optimised and may be very slow for longer documents.
+
 ## Installation
 
 ```sh
