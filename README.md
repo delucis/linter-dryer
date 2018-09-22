@@ -1,6 +1,6 @@
 # linter-dryer
 
-![apm](https://img.shields.io/apm/v/linter-dryer.svg) [![Build Status](https://travis-ci.com/delucis/linter-dryer.svg?branch=master)](https://travis-ci.com/delucis/linter-dryer)
+![apm](https://img.shields.io/apm/v/linter-dryer.svg) [![Build Status](https://travis-ci.com/delucis/linter-dryer.svg?branch=master)](https://travis-ci.com/delucis/linter-dryer) [![Greenkeeper badge](https://badges.greenkeeper.io/delucis/linter-dryer.svg)](https://greenkeeper.io/)
 
 > Highlight repetition in [Atom](https://atom.io/) to help you stay <abbr title="Don’t Repeat Yourself">DRY</abbr>
 
