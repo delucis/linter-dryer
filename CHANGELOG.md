@@ -12,16 +12,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 
-<a name="0.3.0"></a>
-# [0.3.0](https://github.com/delucis/linter-dryer/compare/v0.2.1...v0.3.0) (2018-10-09)
-
-
-### Features
-
-* Add option to use ignore files like .gitignore ([#5](https://github.com/delucis/linter-dryer/issues/5)) ([fd5cdb1](https://github.com/delucis/linter-dryer/commit/fd5cdb1))
-
-
-
 <a name="0.2.1"></a>
 ## [0.2.1](https://github.com/delucis/linter-dryer/compare/v0.2.0...v0.2.1) (2018-10-09)
 
