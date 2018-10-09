@@ -54,3 +54,7 @@ Files that match any of the patterns set here will be ignored when looking for r
 - default: `'info'`
 
 Sets how the linter UI highlights repetitions in Atom. By default, a blue “info” level is set, but users can choose to have repetitions highlighted as warnings (orange) or errors (red).
+
+## Contributing
+
+All contributions to this package — no matter how small — are welcome! Please see the [contribution guidelines](CONTRIBUTING.md) for notes on opening issues and submitting pull requests and the [code of conduct](CODE_OF_CONDUCT.md) for rules about how to treat other developers with kindness and respect.
