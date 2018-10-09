@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.1"></a>
+## [0.2.1](https://github.com/delucis/linter-dryer/compare/v0.2.0...v0.2.1) (2018-10-09)
+
+
+### Performance Improvements
+
+* Don’t fetch column for end of range ([61f7aeb](https://github.com/delucis/linter-dryer/commit/61f7aeb))
+* Don’t lint on change ([6fa5b64](https://github.com/delucis/linter-dryer/commit/6fa5b64))
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/delucis/linter-dryer/compare/v0.1.0...v0.2.0) (2018-10-09)
 
