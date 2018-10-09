@@ -41,12 +41,19 @@ Code is processed and tokenized by `jscpd` in order to find repetitions that are
 
 Set whether the linter should look for repetitions only in the current file, or throughout the current project.
 
-### Files to ignore
+### `.ignore` files
 
 - type: `'array'` of strings
-- default: `['**/node_modules/**', '**/.git/**', '**/*.min.*']`
+- default: `['.gitignore']`
 
-Files that match any of the patterns set here will be ignored when looking for repetition. (See [`minimatch`](https://github.com/isaacs/minimatch/#minimatch) for globbing documentation.)
+Specify files like `.gitignore` or `.npmignore` to use in deciding which files linter-dryer should ignore.
+
+### Additional ignore patterns
+
+- type: `'array'` of strings
+- default: `['**/*.min.*']`
+
+Files that match any of the patterns set here will be ignored when looking for repetition. (See [`minimatch`](https://github.com/isaacs/minimatch/#minimatch) for globbing documentation.) These patterns are applied _in addition_ to rules found in any files set in the **.ignore files** option.
 
 ### Repetition severity
 
