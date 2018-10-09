@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/delucis/linter-dryer/compare/v0.1.0...v0.2.0) (2018-10-09)
+
+
+### Features
+
+* Use `jscpd` to provide repetition detection ([#3](https://github.com/delucis/linter-dryer/issues/3)) ([26c1a94](https://github.com/delucis/linter-dryer/commit/26c1a94))
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2018-09-21)
 
