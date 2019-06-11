@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "atom-linter": "^10.0.0",
-    "atom-package-deps": "^4.6.2",
+    "atom-package-deps": "^5.1.0",
     "ignore-walk": "^3.0.1",
     "jscpd": "^0.6.24"
   },
@@ -47,7 +47,7 @@
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0",
     "standard": "^12.0.1",
-    "standard-version": "^5.0.0"
+    "standard-version": "^6.0.1"
   },
   "bugs": "https://github.com/delucis/linter-dryer/issues",
   "homepage": "https://github.com/delucis/linter-dryer#readme",
